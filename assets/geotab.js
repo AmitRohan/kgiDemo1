@@ -25,7 +25,7 @@ geotab.addin.kgiDemo1 = () => {
 
   let onAppStart = () => {
       api.getSession((result) => {
-        console.log(result);
+        loadAngularApp();
       });
   };
 
