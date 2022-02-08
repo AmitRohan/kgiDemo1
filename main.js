@@ -1,4 +1,4 @@
-const loadAngularMain = () => {
+const loadDemo1Main = () => {
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["main"],{
 
 /***/ 0:

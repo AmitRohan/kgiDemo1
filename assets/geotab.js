@@ -24,8 +24,14 @@ geotab.addin.kgiDemo1 = () => {
   };
 
   let onAppStart = () => {
+      
+      loadDemo1Runtime();
+      loadDemo1Polyfill();
+      loadDemo1Vendor();
+      loadDemo1Main();
+
       api.getSession((result) => {
-        loadAngularApp();
+        
       });
   };
 
@@ -44,6 +50,7 @@ geotab.addin.kgiDemo1 = () => {
   let abort = () => {
       console.log("kgiDemo1 Aborted");
       clearAngularAppinitCheck();
+      window["webpackJsonp"] = [];
   };
 
   return {
