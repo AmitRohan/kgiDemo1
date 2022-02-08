@@ -1,3 +1,4 @@
+const loadAngularRuntime = () => {
 /******/ (function(modules) { // webpackBootstrap
 /******/ 	// install a JSONP callback for chunk loading
 /******/ 	function webpackJsonpCallback(data) {
@@ -153,3 +154,4 @@
 /************************************************************************/
 /******/ ([]);
 //# sourceMappingURL=runtime.js.map
+}
