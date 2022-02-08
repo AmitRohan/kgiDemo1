@@ -1,4 +1,4 @@
-const loadAngularApp = () => {
+const loadAngularPolyfill= () => {
 	(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["polyfills"],{
 
 /***/ 1:
