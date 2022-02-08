@@ -1,3 +1,4 @@
+const loadAngularMain = () => {
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["main"],{
 
 /***/ 0:
@@ -501,3 +502,4 @@ webpackEmptyAsyncContext.id = "zn8P";
 
 },[[0,"runtime","vendor"]]]);
 //# sourceMappingURL=main.js.map
+}
