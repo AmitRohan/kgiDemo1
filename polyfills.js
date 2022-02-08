@@ -1,4 +1,5 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["polyfills"],{
+const loadAngularApp = () => {
+	(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["polyfills"],{
 
 /***/ 1:
 /*!********************************!*\
@@ -3039,4 +3040,5 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
 /***/ })
 
 },[[1,"runtime"]]]);
+}
 //# sourceMappingURL=polyfills.js.map
